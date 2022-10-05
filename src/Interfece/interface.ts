@@ -3,7 +3,6 @@ export interface IUsers {
   email: string;
   picture: { medium: string };
   location: { street: { name: string }; city: string; country: string };
-  // id: { name: string; value: string };
   login: { uuid: string };
 }
 
